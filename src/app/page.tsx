@@ -1,4 +1,13 @@
 import App from "./App";
-export default function Home() {
-  return <App />;
+import Head from "next/head";
+
+export default function Page() {
+  return (
+    <div>
+      {/* <Head>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+      </Head> */}
+      <App />
+    </div>
+  );
 }

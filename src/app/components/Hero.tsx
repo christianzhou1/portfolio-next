@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         }}
       />
       <div className="relative flex flex-col min-h-[60vh] min-w-full items-center text-off-white z-0 pointer-events-none">
-        <h1 className=" font-bold text-[6em] mt-36 mb-[25px] text-offWhite hover:scale-105 transition-transform duration-700 ease-in-out cursor-default drop-shadow-[0_5px_10px_rgba(0,0,0,0.8)]">
+        <h1 className=" font-bold text-[7em] mt-36 mb-[25px] text-white hover:scale-105 transition-transform duration-700 ease-in-out cursor-default drop-shadow-[0_5px_10px_rgba(0,0,0,0.8)]">
           Christian Zhou
         </h1>
         {/* <p className="font-normal mt-10">
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         for new opportunities to learn and grow as a developer.
       </p> */}
         <Description
-          content="Hi, I'm Christian Zhou. This is my portfolio website using React.js and Typescript, created June 1, 2024. I'm a computer science student
+          content="Hi, I'm Christian Zhou. This is my portfolio website using Next.js and Typescript, created June 1, 2024. I'm a computer science student
         with a passion for creating and developing software. I'm always looking
         for new opportunities to learn and grow as a developer. Cheers!!!!!"
         />
