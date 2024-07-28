@@ -1,4 +1,4 @@
-import App from "./App";
+import App from "../pages/_app";
 import Head from "next/head";
 
 export default function Page() {

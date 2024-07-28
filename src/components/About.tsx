@@ -24,8 +24,9 @@ const About = ({ titleContent, descContent, sectionName }: SectionProps) => {
           description=""
           content={
             <div>
-              I'm a student at McMaster University, Hamilton, ON. I'm heading
-              back to school for third year computer science in September 2024.
+              I`&apos;`m a student at McMaster University, Hamilton, ON.
+              I`&apos;`m heading back to school for third year computer science
+              in September 2024.
             </div>
           }
         />

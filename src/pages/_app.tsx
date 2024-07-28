@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import Hero from "./components/Hero";
+import Hero from "../components/Hero";
 //import Description from "./components/Description";
 //import Header from "./components/Header";
-import About from "./components/About";
+import About from "../components/About";
 //import Section from "./components/Section";
-import Contact from "./components/Contact";
-import Menu from "./components/Menu";
-import Projects from "./components/Projects";
+import Contact from "../components/Contact";
+import Menu from "../components/Menu";
+import Projects from "../components/Projects";
 const App: React.FC = () => {
   return (
     <div className="App">
